@@ -1,5 +1,9 @@
 package ranking;
 
+import java.util.Map;
+import java.util.Set;
+import java.util.stream.Collectors;
+
 public class Armazenamento implements ArmazemDePontos {
 	private GerenciadorDeUsuario gerenciadorDeUsuario;
 
